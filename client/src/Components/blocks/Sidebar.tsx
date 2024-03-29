@@ -7,7 +7,7 @@ import { IoHomeOutline } from "react-icons/io5";
 import { LuPlane } from "react-icons/lu";
 import { CiWallet, CiSettings } from "react-icons/ci";
 import { FaRegFileAlt } from "react-icons/fa";
-import { VscPieChart } from "react-icons/vsc";
+import { VscPieChart } from "react-icons/vsc"
 
 const Sidebar = () => {
     const location = useLocation();
