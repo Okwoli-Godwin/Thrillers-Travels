@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.myElement::before {
+    position: absolute;
+  content: '';
+  height: 30px;
+  width: 60px;
+  background: transparent;
+  right: 0;
+  bottom: 100%;
+  border-bottom-right-radius: 20px;
+  box-shadow:  0 17px 0 #E1ECEB;
+}
+
+.myElement::after {
+    position: absolute;
+  content: '';
+  height: 30px;
+  width: 60px;
+  background: transparent;
+  right: 0;
+  top: 100%;
+  border-top-right-radius: 20px;
+  box-shadow:  0 -17px 0 #E1ECEB;
+}
+
+.MyCurve::before{
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  right: 0;
+  bottom: 0;
+  background: #E1ECEB;
+  border-top-left-radius: 100%;
+}
+.MyCurve::after{
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  left: 0;
+  bottom: 0;
+  background: #E1ECEB;
+  border-top-right-radius: 100%;
+}
+
+.Curve::before{
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  right: 0;
+  top: 0;
+  background: #E1ECEB;
+  border-bottom-left-radius: 100%;
+}
+.Curve::after{
+  content: '';
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  left: 0;
+  top: 0;
+  background: #E1ECEB;
+  border-bottom-right-radius: 100%;
+}
+
+
+/* .MyCurve::before, .MyCurve::after {
+  bottom: 0;
+}
+
+.MyCurve::after {
+  left: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 100%;
+} */
+
+
+
+:root {
+  font-family: "Nunito", sans-serif;
+
+  background-color: #fff;
+}
