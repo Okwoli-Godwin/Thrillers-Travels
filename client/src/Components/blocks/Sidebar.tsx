@@ -2,7 +2,6 @@ import img from "../../assets/bit.png"
 import img2 from "../../assets/bit2.png"
 import img3 from "../../assets/trill1.png"
 import img4 from "../../assets/bit3.png"
-import img5 from "../../assets/bit4.png"
 import { useNavigate, useLocation } from "react-router-dom"
 import { IoHomeOutline } from "react-icons/io5";
 import { LuPlane } from "react-icons/lu";
